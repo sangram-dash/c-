@@ -1,0 +1,19 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    char c;
+    int a;
+    cout<<"Enter a character:";
+    cin>>c;
+    a=c;
+    //cout<<a;
+    if(a>=48&&a<58)
+        cout<<"You have entered a number";
+    if(a>64&&a<91)
+        cout<<"You have entered a upper case";
+    if(a>96&&a<123)
+        cout<<"You have entered a lower case";
+}
